@@ -12,7 +12,7 @@ pipeline {
     
     environment {
         
-    registry = "hanagu/CD"
+    registry = "ikram001/my-first-cico-repo"
     
     registryCredential = 'dockerhub'
     
@@ -29,7 +29,7 @@ pipeline {
 
                     // Let's clone the source
 
-                    git 'https://github.com/Hanaagu/CD.git';
+                    git 'https://github.com/IkramBej/ValidationCD.git';
 
                 }
 
